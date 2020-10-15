@@ -20,4 +20,6 @@ public class CommentsInfo {
     private String addedFileUrl;
     private List emoji;
     private boolean send;
+
+    private int canPost;
 }
