@@ -16,30 +16,16 @@ public class Post {
     private String message;
     private boolean showInFull;
     private String imageUrl;
-    private int likesCounter;
     private List listOfLikers;
-    private int commentsCounter;
-    private int shareCounter;
-    private int viewsCounter;
 
     private int ownerId;
     private int createdBy;
     private int replyOwnerId;
     private int replyPostId;
     private int friendsOnly;
-    private int canPost;
-    private int groupsCanPost;
-    private int canClose;
-    private int canOpen;
     private String copyright;
-    private int userLikes;
-    private int canLike;
-    private int canPublish;
     private int userReposted;
     private String postType;
-    private String geoType;
-    private String geoCoordinates;
-    private String geoPlace;
     private int canPin;
     private int canDelete;
     private int canEdit;
@@ -142,44 +128,12 @@ public class Post {
         this.imageUrl = imageUrl;
     }
 
-    public int getLikesCounter() {
-        return likesCounter;
-    }
-
-    public void setLikesCounter(int likesCounter) {
-        this.likesCounter = likesCounter;
-    }
-
     public List getListOfLikers() {
         return listOfLikers;
     }
 
     public void setListOfLikers(List listOfLikers) {
         this.listOfLikers = listOfLikers;
-    }
-
-    public int getCommentsCounter() {
-        return commentsCounter;
-    }
-
-    public void setCommentsCounter(int commentsCounter) {
-        this.commentsCounter = commentsCounter;
-    }
-
-    public int getShareCounter() {
-        return shareCounter;
-    }
-
-    public void setShareCounter(int shareCounter) {
-        this.shareCounter = shareCounter;
-    }
-
-    public int getViewsCounter() {
-        return viewsCounter;
-    }
-
-    public void setViewsCounter(int viewsCounter) {
-        this.viewsCounter = viewsCounter;
     }
 
     public int getOwnerId() {
@@ -222,68 +176,12 @@ public class Post {
         this.friendsOnly = friendsOnly;
     }
 
-    public int getCanPost() {
-        return canPost;
-    }
-
-    public void setCanPost(int canPost) {
-        this.canPost = canPost;
-    }
-
-    public int getGroupsCanPost() {
-        return groupsCanPost;
-    }
-
-    public void setGroupsCanPost(int groupsCanPost) {
-        this.groupsCanPost = groupsCanPost;
-    }
-
-    public int getCanClose() {
-        return canClose;
-    }
-
-    public void setCanClose(int canClose) {
-        this.canClose = canClose;
-    }
-
-    public int getCanOpen() {
-        return canOpen;
-    }
-
-    public void setCanOpen(int canOpen) {
-        this.canOpen = canOpen;
-    }
-
     public String getCopyright() {
         return copyright;
     }
 
     public void setCopyright(String copyright) {
         this.copyright = copyright;
-    }
-
-    public int getUserLikes() {
-        return userLikes;
-    }
-
-    public void setUserLikes(int userLikes) {
-        this.userLikes = userLikes;
-    }
-
-    public int getCanLike() {
-        return canLike;
-    }
-
-    public void setCanLike(int canLike) {
-        this.canLike = canLike;
-    }
-
-    public int getCanPublish() {
-        return canPublish;
-    }
-
-    public void setCanPublish(int canPublish) {
-        this.canPublish = canPublish;
     }
 
     public int getUserReposted() {
@@ -300,30 +198,6 @@ public class Post {
 
     public void setPostType(String postType) {
         this.postType = postType;
-    }
-
-    public String getGeoType() {
-        return geoType;
-    }
-
-    public void setGeoType(String geoType) {
-        this.geoType = geoType;
-    }
-
-    public String getGeoCoordinates() {
-        return geoCoordinates;
-    }
-
-    public void setGeoCoordinates(String geoCoordinates) {
-        this.geoCoordinates = geoCoordinates;
-    }
-
-    public String getGeoPlace() {
-        return geoPlace;
-    }
-
-    public void setGeoPlace(String geoPlace) {
-        this.geoPlace = geoPlace;
     }
 
     public int getCanPin() {

@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 import java.util.List;
 
-public class Share {
+public class RepostsInfo {
     private List listOfWhereShared;
     private String receiverName;
     private String writeMessage;
@@ -12,6 +12,9 @@ public class Share {
     private String addedPAudioUrl;
     private String addedFileUrl;
     private boolean send;
+    private int shareCounter;
+
+    private int userReposted;
 
     public List getListOfWhereShared() {
         return listOfWhereShared;
@@ -83,5 +86,21 @@ public class Share {
 
     public void setSend(boolean send) {
         this.send = send;
+    }
+
+    public int getShareCounter() {
+        return shareCounter;
+    }
+
+    public void setShareCounter(int shareCounter) {
+        this.shareCounter = shareCounter;
+    }
+
+    public int getUserReposted() {
+        return userReposted;
+    }
+
+    public void setUserReposted(int userReposted) {
+        this.userReposted = userReposted;
     }
 }

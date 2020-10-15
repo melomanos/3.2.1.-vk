@@ -20,8 +20,12 @@ public class CommentsInfo {
     private String addedFileUrl;
     private List emoji;
     private boolean send;
+    private int commentsCounter;
 
     private int canPost;
+    private int groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 
     public String getId() {
         return id;
@@ -151,11 +155,43 @@ public class CommentsInfo {
         this.send = send;
     }
 
+    public int getCommentsCounter() {
+        return commentsCounter;
+    }
+
+    public void setCommentsCounter(int commentsCounter) {
+        this.commentsCounter = commentsCounter;
+    }
+
     public int getCanPost() {
         return canPost;
     }
 
     public void setCanPost(int canPost) {
         this.canPost = canPost;
+    }
+
+    public int getGroupsCanPost() {
+        return groupsCanPost;
+    }
+
+    public void setGroupsCanPost(int groupsCanPost) {
+        this.groupsCanPost = groupsCanPost;
+    }
+
+    public boolean isCanClose() {
+        return canClose;
+    }
+
+    public void setCanClose(boolean canClose) {
+        this.canClose = canClose;
+    }
+
+    public boolean isCanOpen() {
+        return canOpen;
+    }
+
+    public void setCanOpen(boolean canOpen) {
+        this.canOpen = canOpen;
     }
 }
