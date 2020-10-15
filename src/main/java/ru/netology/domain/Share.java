@@ -12,4 +12,76 @@ public class Share {
     private String addedPAudioUrl;
     private String addedFileUrl;
     private boolean send;
+
+    public List getListOfWhereShared() {
+        return listOfWhereShared;
+    }
+
+    public void setListOfWhereShared(List listOfWhereShared) {
+        this.listOfWhereShared = listOfWhereShared;
+    }
+
+    public String getReceiverName() {
+        return receiverName;
+    }
+
+    public void setReceiverName(String receiverName) {
+        this.receiverName = receiverName;
+    }
+
+    public String getWriteMessage() {
+        return writeMessage;
+    }
+
+    public void setWriteMessage(String writeMessage) {
+        this.writeMessage = writeMessage;
+    }
+
+    public List getEmoji() {
+        return emoji;
+    }
+
+    public void setEmoji(List emoji) {
+        this.emoji = emoji;
+    }
+
+    public String getAddedPhotoUrl() {
+        return addedPhotoUrl;
+    }
+
+    public void setAddedPhotoUrl(String addedPhotoUrl) {
+        this.addedPhotoUrl = addedPhotoUrl;
+    }
+
+    public String getAddedVideoUrl() {
+        return addedVideoUrl;
+    }
+
+    public void setAddedVideoUrl(String addedVideoUrl) {
+        this.addedVideoUrl = addedVideoUrl;
+    }
+
+    public String getAddedPAudioUrl() {
+        return addedPAudioUrl;
+    }
+
+    public void setAddedPAudioUrl(String addedPAudioUrl) {
+        this.addedPAudioUrl = addedPAudioUrl;
+    }
+
+    public String getAddedFileUrl() {
+        return addedFileUrl;
+    }
+
+    public void setAddedFileUrl(String addedFileUrl) {
+        this.addedFileUrl = addedFileUrl;
+    }
+
+    public boolean isSend() {
+        return send;
+    }
+
+    public void setSend(boolean send) {
+        this.send = send;
+    }
 }
